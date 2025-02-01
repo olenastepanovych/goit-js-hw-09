@@ -13,13 +13,8 @@ body {
 .feedback-form {
     display: flex;
     flex-direction: column;
-
     max-width: 360px;
-    margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-
+    margin: 10px auto 40px;
     border: 1px solid rgb(141, 141, 141);
     padding: 20px;
     border-radius: 8px;
@@ -35,69 +30,43 @@ body {
     margin-bottom: 0;
 }
 
-.form-input {
+.form-input,
+.form-textarea {
     border: 1px solid #808080;
     border-radius: 4px;
-    max-width: 460px;
+    width: 100%;
     min-height: 40px;
-    margin-top: 8px;
-
+    padding: 8px;
     font-family: 'Montserrat', sans-serif;
-
-    padding: 16px 8px;
-}
-
-.form-input:hover {
-    outline: none;
-    border-color: #000;
-}
-
-.form-input:focus {
-    outline: none;
-    border-color: #808080;
+    margin-top: 8px;
 }
 
 .form-textarea {
     resize: none;
-    display: block;
-
-    border: 1px solid #808080;
-    border-radius: 4px;
-    max-width: 360px;
     min-height: 80px;
-
-    font-family: 'Montserrat', sans-serif;
-
-    padding: 16px 8px;
-
-    margin-top: 8px;
 }
 
-.form-textArea:hover {
-    outline: none;
+.form-input:hover,
+.form-textarea:hover {
     border-color: #000;
 }
 
-.form-textArea:focus {
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #4e75ff;
     outline: none;
-    border-color: #808080;
 }
 
 .form-button {
     display: block;
-
-    border-radius: 8px;
-    max-width: 95px;
+    width: 100px;
     height: 40px;
-
     background-color: #4e75ff;
     border: none;
-
+    border-radius: 8px;
     font-size: 16px;
     color: #fff;
-
     cursor: pointer;
-
     margin-top: 8px;
 }
 
