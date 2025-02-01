@@ -4,6 +4,10 @@
 .nav {
   display: flex;
   justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 6rem;
+        margin-block: 20rem;
 }
 .nav-logo {
   display: inline-flex;
